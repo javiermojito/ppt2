@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8"> <!--  -->
         <link rel="stylesheet" href="./style.css">
-        <script src="./main.js"></script>
         <title>✊✋✌</title> <!-- (Win + :) -->
     </head>
     <body>   
@@ -21,9 +20,9 @@
 
         <h2>Por favor, selecciona una opción:</h2>
 
-        <button id="but-piedra">Piedra (✊)</button>
-        <button id="but-papel">Papel (✋)</button>
-        <button id="but-tijera">Tijera (✌)</button>
+        <button id="but-piedra" value="0">Piedra (✊)</button>
+        <button id="but-papel" value="1">Papel (✋)</button>
+        <button id="but-tijera" value="2">Tijera (✌)</button>
 
         <br>
         <br>
@@ -32,7 +31,7 @@
 
         <br>
         <br>
-        <span id="lbl-user"> LOREM </span> 
+        <span id="lbl-user">---</span> 
 
         <br>
         <br>
@@ -40,16 +39,17 @@
 
         <br>
         <br>
-        <span id="lbl-cpu"> IPSUM </span> 
+        <span id="lbl-cpu">---</span> 
 
         <h3>Resultado</h3>
 
-        <span id="lbl-resultado"> GANADOR </span> 
+        <span id="lbl-resultado">-----</span> 
 
         <h3>Marcador</h3>
         Usuario vs Máquina
         <br>
         <span id="lbl-res-user"> 0 </span>  : <span id="lbl-res-cpu"> 0 </span> 
 
+        <script src="./main.js"></script>
     </body>
 </html>
