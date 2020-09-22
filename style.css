@@ -22,3 +22,9 @@ button:hover{
     cursor: pointer;
     background-color: #4b7956;
 }
+
+footer{
+    margin-top: 30px;
+    background-color: #f5eaea;
+    padding: 20px;
+}
