@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-size: x-large;
+    font-family: 'Grandstander', cursive;
+    font-weight: 400;
+}
+
+button {
+    color: white;
+    background-color: #5d946a;
+    padding: 8px 14px 8px 14px; /*⬆ ➡ ⬇ ⬅ */
+    margin: 12px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    font-size: large;
+    font-family: 'Grandstander', cursive;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #4b7956;
+}
